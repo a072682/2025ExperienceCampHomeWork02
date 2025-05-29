@@ -1,0 +1,18 @@
+.pagination{
+    max-width: 328px;
+}
+
+ .pagination .page-link {
+    cursor: pointer;
+    color: #4B4B4B;
+  }
+  
+  .pagination .page-item.active .page-link {
+    background-color: #ffffff;
+    color: #0027D5;
+  }
+
+.page-item.disabled .page-link{
+    background-color: #ffffff;
+}
+  

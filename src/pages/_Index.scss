@@ -1,0 +1,300 @@
+
+.main-mb-bg1{
+  width: 100%;
+  min-height: 375px;
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: contain;
+  //background-size: cover;
+}
+
+.main-mb-bg2{
+  width: 100%;
+  min-height: 356px;
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: cover;
+  //background-size: cover;
+
+  /* ✅ 寬度 >= 1200px 時，改為兩張背景圖左右平鋪 */
+}
+.bg-1{
+    background-image: url('/images/mobile/index/Hero Section.png');
+}
+
+.bg-2{
+    background-image: url('/images/mobile/index/Hero Section2.png');
+}
+
+
+/*index*/
+.main1-desktop{
+    height: 1036px;
+}
+
+.main-desktop-bg{
+    height: 834px;
+    background-image: url('/images/desktop/index/Hero Section2.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:cover;
+    background-attachment: scroll;
+}
+
+.main-desktop-bg1{
+    width: 50%;
+    height: 834px;
+    background-image: url('/images/desktop/index/Hero Section.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:cover;
+    background-attachment: scroll;
+}
+
+.main-desktop-bg2{
+    width: 50%;
+}
+
+.title-desktop-box{
+    
+}
+.title-desktop-box2{
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: start;
+    gap: 12px;
+    @media (max-width: 1361px) {
+        align-items: center;
+    }
+}
+.content-desktop-box{
+    max-width: 1077px;
+    max-height: 362px;
+    bottom: 0;
+    right:80px;
+}
+
+
+
+/*main2-mb*/
+.main2-icon-box{
+    width: 40px;
+    height: 40px;
+}
+
+.main2-icon{
+    width: 30px;
+    height: 3.5px;
+}
+
+/*main2-desk*/
+.main2-desktop-img-box{
+    min-height: 320px;
+    background-repeat: no-repeat;
+    background-position: left 110px center;
+    background-size: 50%; /* 強制圖片大小為 80x80 */
+}
+
+.main2-desktop-img-box-2{
+    min-height: 320px;
+    background-repeat: no-repeat;
+    background-position: right 110px center;
+    background-size: 50%; /* 強制圖片大小為 80x80 */
+}
+
+.main2-desktop-img-1{
+    background-image: url('/images/desktop/index/photo.png'); /* 替換成你的圖路徑 */
+}
+.main2-desktop-img-2{
+    background-image: url('/images/desktop/index/photo2.png'); /* 替換成你的圖路徑 */
+}
+.main2-desktop-img-3{
+    background-image: url('/images/desktop/index/photo3.png'); /* 替換成你的圖路徑 */
+}
+.main2-desktop-img-4{
+    background-image: url('/images/desktop/index/photo4.png'); /* 替換成你的圖路徑 */
+}
+
+.main2-desktop-content-box{
+    max-width: 480px;
+    max-height: 210px;
+}
+
+
+/*main3*/
+.card-img-box{
+    width: 100%;
+    height: 200px;
+}
+
+.custom-prev,.custom-next{
+    width: 44px;
+    height: 44px;
+}
+
+.custom-desktop-prev,.custom-desktop-next{
+    width: 44px;
+    height: 44px;
+    position:absolute;
+}
+
+.custom-desktop-prev{
+    left: -56px;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 5;
+    @media (max-width: 1460px) {
+        left: -30px;
+    }
+    @media (max-width: 1400px) {
+        left: -56px;
+    }
+    @media (max-width: 1270px) {
+        left: -30px;
+    }
+}
+
+.custom-desktop-next{
+    right: -56px;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 5;
+    @media (max-width: 1460px) {
+        right: -30px;
+    }
+    @media (max-width: 1400px) {
+        right: -56px;
+    }
+    @media (max-width: 1270px) {
+        right: -30px;
+    }
+}
+
+
+/*main4*/
+.main4-mb-bg{
+    background-image: url('/images/mobile/index/Hero Section2.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.main4-mb-img-box{
+    width: 100%;
+    height: 480px;
+}
+
+.main4-mb-img{
+    object-position: center -50px;
+    @media (min-width: 768px) {
+        object-position: center -220px;
+    }
+    @media (min-width: 992px) {
+        object-position: center -450px;
+    }
+}
+
+.main4-icon-box{
+    width: 40px;
+    height: 40px;
+}
+
+.main4-icon{
+    width: 30px;
+    height: 3.5px;
+}
+
+.main4-mb-card-btn{
+    width: auto;
+    border: 1px solid #0027D5;
+    padding: 8px 16px;
+}
+
+.main4-mb-content3-img-box{
+    width: 80px;
+    height: 80px;
+}
+
+/*main4-desktop*/
+
+.main4-desktop-bg{
+    background-image: url('/images/desktop/index/Hero Section2.png');
+    background-repeat: no-repeat;
+    background-position: left 0;
+    background-size: 70%;
+}
+
+.main4-desktop-img-box{
+    width: 60%;
+    height: 626px;
+}
+
+.main4-desktop-img{
+    
+    object-position: center 0px;
+}
+
+.main4-desktop-content1-box{
+    top:29px;
+    right: 219px;
+    z-index: 10;
+    @media (max-width: 1400px) {
+        right: 0px;
+    }
+}
+.main4-desktop-content2-box{
+    bottom:29px;
+    right: 0;
+    z-index: 9;
+}
+
+/*main5-mb*/
+.main5-mb-bg{
+    height: 375px;
+    background-image: url('/images/mobile/index/photo9.png');
+    background-repeat: no-repeat;
+    background-position: center -30px;
+    background-size: cover;
+    @media (min-width: 768px) {
+        background-size: 50%;
+        background-position: center;
+    }
+    @media (min-width: 992px) {
+        background-size: 50%;
+        background-position: center -40px;
+    }
+}
+
+.main5-md-input{
+    background-color: #F1F1F1;
+    border: none;
+    padding: 8px 16px;
+    font-size: 20px;
+    width: 100%;
+    color: #000000;
+    border-radius: 4px;
+}
+.main5-md-input::placeholder {
+    color: #4B4B4B;
+}
+
+/*main5-desktop*/
+.main5-desktop-bg1{
+    width: 100%;
+    height: 834px;
+    background-image: url('/images/desktop/index/photo9.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.main5-desktop-bg2{
+    width: 100%;
+    height: 834px;
+    background-image: url('/images/mobile/index/Hero Section2.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+

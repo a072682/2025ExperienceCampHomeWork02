@@ -1,0 +1,35 @@
+
+.bgd-main2-mb-bg1{
+    height: 375px;
+    background-image: url('/images/mobile/blog-content/About Section.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:cover;
+    background-attachment: scroll;
+}
+
+.bgd-mb-main2-card1-img{
+    width: 100%;
+    height: 320px;
+    object-fit: cover;
+}
+
+.bgd-mb-main2-card1-finish{
+    background-color: #EDEDED;
+    border-radius: 10px;
+}
+
+/*bgd-main2-desktop*/
+.bgd-main2-desktop-bg1{
+    width: 50%;
+    height: 640px;
+    background-image: url('/images/mobile/blog-content/About Section.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:cover;
+    background-attachment: scroll;
+}
+
+.bgd-main2-desktop-bg2{
+    width: 50%;
+}
