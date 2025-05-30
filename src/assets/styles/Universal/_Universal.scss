@@ -49,6 +49,11 @@
 /* 顏色 */
 
 /* 字體 */
+    p {
+    overflow-wrap: break-word;
+    word-break: break-word; 
+    }
+
     .fontFamily{
         font-family: 'Noto Sans TC', sans-serif;
     }

@@ -109,7 +109,7 @@ function Index (){
                                         <p className='fw-500 fs-24 fontFamily mb-8'>嗨，我是<span>Alyse</span></p>
                                         <p className='fw-500 fs-24 fontFamily mb-16'>一名深耕前端技術的工程師。</p>
                                         <p className='fw-500 fs-24 fontFamily mb-16'>擅長 React、Vue 等框架，同時熱愛為轉職與新手工程師提供職涯指導。邀請你與我一起，開啟更具潛能的程式與職涯之旅！</p>
-                                        <div className='d-flex gap-4'>
+                                        <div className='d-flex flex-wrap gap-4'>
                                             <img src="/images/mobile/index/onlyIcon.png" alt="" />
                                             <img src="/images/mobile/index/onlyIcon-1.png" alt="" />
                                             <img src="/images/mobile/index/onlyIcon-2.png" alt="" />
@@ -796,8 +796,8 @@ function Index (){
                                 <p className='fw-700 fs-48 lh-15 fontFamily'>與我聯繫</p>
                             </div>
                             <div className="col-12">
-                                <div className='mt-24 pb-16 d-flex flex-column row-gap-8 border-bottom border-1 border-secondary pointer'>
-                                    <p className='fw-500 fs-24 lh-15 fontFamily'>alysewang@hexschool.com</p>
+                                <div className='mt-24 pb-16 d-flex flex-column row-gap-8 border-bottom border-1 border-secondary'>
+                                    <p className='fw-500 fs-24 lh-15 fontFamily'>alysewang@hexschool.com我我我我我我我我我我我我我我我</p>
                                     <p className='fw-500 fs-24 lh-15 fontFamily'>合作洽談</p>
                                     <span class="material-symbols-outlined pointer">
                                         arrow_forward
@@ -806,7 +806,7 @@ function Index (){
                                 <div className='mt-24 pb-20 d-flex flex-column row-gap-8 border-bottom border-1 border-secondary pointer'>
                                     <div className='d-flex justify-content-start align-items-center gap-8'>
                                         <img src={`${import.meta.env.BASE_URL}images/mobile/index/onlyIcon.png`} alt="" />
-                                        <p className='fw-500 fs-24 lh-15 fontFamily'>Youtube 職涯諮詢室</p>
+                                        <p className='fw-500 fs-24 lh-15 fontFamily'>Youtube 職涯諮詢室我我我我我我我我我午我我我我</p>
                                     </div>
                                     <span class="material-symbols-outlined pointer">
                                         arrow_forward
