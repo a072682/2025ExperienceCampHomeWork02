@@ -97,6 +97,14 @@ function Index (){
                                         <h1 className='text-center col-0027D5 fs-52 fontFamily'>Alyse Wang</h1>
                                         <p className='text-center col-0027D5 fs-28 fw-700 fontFamily'>前端工程師 & 職涯諮詢師</p>
                                     </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <div className="container">
+                            <div className="row">
+                                <div className="col">
                                     <div className='bg-white py-40 px-24'>
                                         <p className='fw-500 fs-24 fontFamily mb-8'>嗨，我是<span>Alyse</span></p>
                                         <p className='fw-500 fs-24 fontFamily mb-16'>一名深耕前端技術的工程師。</p>
@@ -113,6 +121,8 @@ function Index (){
                             </div>
                         </div>
                     </div>
+                        
+                    
                 </div>
                 <div className='main1-desktop d-none d-xl-block position-relative'>
                     <div className='main-desktop-bg d-flex'>
@@ -730,9 +740,11 @@ function Index (){
             </div>
             <div className='main5 w-100'>
                 <div className='main5-mb d-block d-xl-none'>
+                    <div className='main5-mb-bg'>
+                    </div>
                     <div className="container">
                         <div className="row">
-                            <div className="col-12 main5-mb-bg">
+                            <div className="col-12 ">
                             </div>
                             <div className="col-12 py-12">
                                 <div className='py-40 px-24'>

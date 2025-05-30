@@ -1,20 +1,20 @@
 
 .main-mb-bg1{
-  width: 100%;
-  min-height: 375px;
+  width:100%;
+  height: calc(100vh - 90px - 180px);
   background-repeat: no-repeat;
-  background-position: top center;
-  background-size: contain;
+  background-position: center;
+  background-size: cover;
   //background-size: cover;
 }
 
 .main-mb-bg2{
-  width: 100%;
-  min-height: 356px;
+  width:100%;
+  height: 180px;
   background-repeat: no-repeat;
-  background-position: top center;
+  background-position: center;
   background-size: cover;
-  //background-size: cover;
+  //background-size: cover; 
 
   /* ✅ 寬度 >= 1200px 時，改為兩張背景圖左右平鋪 */
 }
@@ -33,7 +33,8 @@
 }
 
 .main-desktop-bg{
-    height: 834px;
+    width: 100vw;
+    height: calc(100vh - 90px);
     background-image: url('/images/desktop/index/Hero Section2.png');
     background-repeat: no-repeat;
     background-position: center;
@@ -42,8 +43,8 @@
 }
 
 .main-desktop-bg1{
-    width: 50%;
-    height: 834px;
+    width: 50vw;
+    height: calc(100vh - 90px - 202px);
     background-image: url('/images/desktop/index/Hero Section.png');
     background-repeat: no-repeat;
     background-position: center;
@@ -52,7 +53,7 @@
 }
 
 .main-desktop-bg2{
-    width: 50%;
+    width: 50vw;
 }
 
 .title-desktop-box{
@@ -251,19 +252,20 @@
 
 /*main5-mb*/
 .main5-mb-bg{
-    height: 375px;
+    width: 100%;
+    height: calc(100vh - 404px);
     background-image: url('/images/mobile/index/photo9.png');
     background-repeat: no-repeat;
-    background-position: center -30px;
+    background-position: center;
     background-size: cover;
-    @media (min-width: 768px) {
-        background-size: 50%;
-        background-position: center;
-    }
-    @media (min-width: 992px) {
-        background-size: 50%;
-        background-position: center -40px;
-    }
+    // @media (min-width: 768px) {
+    //     background-size: 50%;
+    //     background-position: center;
+    // }
+    // @media (min-width: 992px) { 
+    //     background-size: 50%;
+    //     background-position: center -40px;
+    // }
 }
 
 .main5-md-input{
@@ -281,8 +283,8 @@
 
 /*main5-desktop*/
 .main5-desktop-bg1{
-    width: 100%;
-    height: 834px;
+    width: 50%;
+    height: 100vh;
     background-image: url('/images/desktop/index/photo9.png');
     background-repeat: no-repeat;
     background-position: center;
@@ -290,8 +292,8 @@
 }
 
 .main5-desktop-bg2{
-    width: 100%;
-    height: 834px;
+    width: 50%;
+    height: 100vh;
     background-image: url('/images/mobile/index/Hero Section2.png');
     background-repeat: no-repeat;
     background-position: center;

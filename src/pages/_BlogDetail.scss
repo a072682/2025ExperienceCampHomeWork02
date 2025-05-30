@@ -1,6 +1,6 @@
 
 .bgd-main2-mb-bg1{
-    height: 375px;
+    height: calc(100vh - 90px - 210px);
     background-image: url('/images/mobile/blog-content/About Section.png');
     background-repeat: no-repeat;
     background-position: center;
@@ -22,7 +22,7 @@
 /*bgd-main2-desktop*/
 .bgd-main2-desktop-bg1{
     width: 50%;
-    height: 640px;
+    height: calc(100vh - 90px);
     background-image: url('/images/mobile/blog-content/About Section.png');
     background-repeat: no-repeat;
     background-position: center;
