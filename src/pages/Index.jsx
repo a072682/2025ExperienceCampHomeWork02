@@ -797,7 +797,7 @@ function Index (){
                             </div>
                             <div className="col-12">
                                 <div className='mt-24 pb-16 d-flex flex-column row-gap-8 border-bottom border-1 border-secondary'>
-                                    <p className='fw-500 fs-24 lh-15 fontFamily'>alysewang@hexschool.com我我我我我我我我我我我我我我我</p>
+                                    <p className='fw-500 fs-24 lh-15 fontFamily'>alysewang@hexschool.com</p>
                                     <p className='fw-500 fs-24 lh-15 fontFamily'>合作洽談</p>
                                     <span class="material-symbols-outlined pointer">
                                         arrow_forward
@@ -806,7 +806,7 @@ function Index (){
                                 <div className='mt-24 pb-20 d-flex flex-column row-gap-8 border-bottom border-1 border-secondary pointer'>
                                     <div className='d-flex justify-content-start align-items-center gap-8'>
                                         <img src={`${import.meta.env.BASE_URL}images/mobile/index/onlyIcon.png`} alt="" />
-                                        <p className='fw-500 fs-24 lh-15 fontFamily'>Youtube 職涯諮詢室我我我我我我我我我午我我我我</p>
+                                        <p className='fw-500 fs-24 lh-15 fontFamily'>Youtube 職涯諮詢室</p>
                                     </div>
                                     <span class="material-symbols-outlined pointer">
                                         arrow_forward
