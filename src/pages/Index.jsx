@@ -161,7 +161,7 @@ function Index (){
                             </div>
                             <div class="col-12 mt-32">
                                 <div className='main2-img-box'>
-                                    <img className='img-set' src="/images/mobile/index/photo1.png" alt="" />
+                                    <img className='img-set' src={`${import.meta.env.BASE_URL}images/mobile/index/photo1.png`} alt="" />
                                 </div>
                                 <div className='p-24'>
                                     <div className='main2-icon-box d-flex justify-content-center align-items-center'>
@@ -175,7 +175,7 @@ function Index (){
                             </div>
                             <div class="col-12 mt-32">
                                 <div className='main2-img-box'>
-                                    <img className='img-set' src="/images/mobile/index/photo2.png" alt="" />
+                                    <img className='img-set' src={`${import.meta.env.BASE_URL}images/mobile/index/photo2.png`} alt="" />
                                 </div>
                                 <div className='p-24'>
                                     <div className='main2-icon-box d-flex justify-content-center align-items-center'>
@@ -189,7 +189,7 @@ function Index (){
                             </div>
                             <div class="col-12 mt-32">
                                 <div className='main2-img-box'>
-                                    <img className='img-set' src="/images/mobile/index/photo3.png" alt="" />
+                                    <img className='img-set' src={`${import.meta.env.BASE_URL}images/mobile/index/photo3.png`} alt="" />
                                 </div>
                                 <div className='p-24'>
                                     <div className='main2-icon-box d-flex justify-content-center align-items-center'>
@@ -203,7 +203,7 @@ function Index (){
                             </div>
                             <div class="col-12 mt-32">
                                 <div className='main2-img-box'>
-                                    <img className='img-set' src="/images/mobile/index/photo4.png" alt="" />
+                                    <img className='img-set' src={`${import.meta.env.BASE_URL}images/mobile/index/photo4.png`} alt="" />
                                 </div>
                                 <div className='p-24'>
                                     <div className='main2-icon-box d-flex justify-content-center align-items-center'>
@@ -480,7 +480,7 @@ function Index (){
                             </div>
                             <div className="col-12 mt-24  main4-mb-bg">
                                 <div className='main4-mb-img-box px-24 pt-24'>
-                                    <img className='img-set main4-mb-img' src="/images/mobile/index/photo8.png" alt="" />
+                                    <img className='img-set main4-mb-img' src={`${import.meta.env.BASE_URL}images/mobile/index/photo8.png`} alt="" />
                                 </div>
                             </div>
                             <div className="col-12 ">
@@ -511,7 +511,7 @@ function Index (){
                                 <div className='main4-mb-content3 p-24'>
                                     <div>
                                         <div className='main4-mb-content3-img-box br-40'>
-                                            <img className='img-set' src="/images/mobile/index/people1.png" alt="" />
+                                            <img className='img-set' src={`${import.meta.env.BASE_URL}images/mobile/index/people1.png`} alt="" />
                                         </div>
                                         <p className='mt-16 fw-700 fs-24 lh-15 fontFamily col-000000'>無經驗到前端工程師 Offer</p>
                                         <div className='mt-8 d-flex justify-content-start align-items-center gap-8'>
@@ -534,7 +534,7 @@ function Index (){
                                     </div>
                                     <div className='mt-24'>
                                         <div className='main4-mb-content3-img-box br-40'>
-                                            <img className='img-set' src="/images/mobile/index/people2.png" alt="" />
+                                            <img className='img-set' src={`${import.meta.env.BASE_URL}images/mobile/index/people2.png`} alt="" />
                                         </div>
                                         <p className='mt-16 fw-700 fs-24 lh-15 fontFamily col-000000'>轉職迷茫到明確學習規劃</p>
                                         <div className='mt-8 d-flex justify-content-start align-items-center gap-8'>
@@ -580,7 +580,7 @@ function Index (){
                                     </div>
                                     <div className='mt-24'>
                                         <div className='main4-mb-content3-img-box br-40'>
-                                            <img className='img-set' src="/images/mobile/index/people4.png" alt="" />
+                                            <img className='img-set' src={`${import.meta.env.BASE_URL}images/mobile/index/people4.png`} alt="" />
                                         </div>
                                         <p className='mt-16 fw-700 fs-24 lh-15 fontFamily col-000000'>面試緊張到從容應對</p>
                                         <div className='mt-8 d-flex justify-content-start align-items-center gap-8'>
@@ -614,7 +614,7 @@ function Index (){
                             </div>
                             <div class="col-12 mt-24 main4-desktop-bg position-relative">
                                <div className='main4-desktop-img-box px-24 py-24'>
-                                    <img className='img-set main4-desktop-img' src="/images/desktop/index/photo8.png" alt="" />
+                                    <img className='img-set main4-desktop-img' src={`${import.meta.env.BASE_URL}images/desktop/index/photo8.png`} alt="" />
                                 </div>
                                 <div className='main4-desktop-content1-box bg-ffffff px-40 py-80 w526 position-absolute'>
                                     <div className='main4-icon-box d-flex justify-content-center align-items-center'>
@@ -642,7 +642,7 @@ function Index (){
                                 <div className='p-24 d-flex justify-content-between align-items-center'>
                                     <div>
                                         <div className='main4-mb-content3-img-box br-40'>
-                                            <img className='img-set' src="/images/mobile/index/people1.png" alt="" />
+                                            <img className='img-set' src={`${import.meta.env.BASE_URL}images/desktop/index/people1.png`} alt="" />
                                         </div>
                                         <p className='mt-16 fw-700 fs-24 lh-15 fontFamily col-000000'>無經驗到前端工程師 Offer</p>
                                         <div className='mt-8 d-flex justify-content-start align-items-center gap-8'>
@@ -665,7 +665,7 @@ function Index (){
                                     </div>
                                     <div>
                                         <div className='main4-mb-content3-img-box br-40'>
-                                            <img className='img-set' src="/images/mobile/index/people2.png" alt="" />
+                                            <img className='img-set' src={`${import.meta.env.BASE_URL}images/desktop/index/people2.png`} alt="" />
                                         </div>
                                         <p className='mt-16 fw-700 fs-24 lh-15 fontFamily col-000000'>轉職迷茫到明確學習規劃</p>
                                         <div className='mt-8 d-flex justify-content-start align-items-center gap-8'>
@@ -688,7 +688,7 @@ function Index (){
                                     </div>
                                     <div>
                                         <div className='main4-mb-content3-img-box br-40'>
-                                            <img className='img-set' src="/images/mobile/index/people3.png" alt="" />
+                                            <img className='img-set' src={`${import.meta.env.BASE_URL}images/desktop/index/people3.png`} alt="" />
                                         </div>
                                         <p className='mt-16 fw-700 fs-24 lh-15 fontFamily col-000000'>面試緊張到從容應對</p>
                                         <div className='mt-8 d-flex justify-content-start align-items-center gap-8'>
@@ -711,7 +711,7 @@ function Index (){
                                     </div>
                                     <div>
                                         <div className='main4-mb-content3-img-box br-40'>
-                                            <img className='img-set' src="/images/mobile/index/people4.png" alt="" />
+                                            <img className='img-set' src={`${import.meta.env.BASE_URL}images/desktop/index/people4.png`} alt="" />
                                         </div>
                                         <p className='mt-16 fw-700 fs-24 lh-15 fontFamily col-000000'>面試緊張到從容應對</p>
                                         <div className='mt-8 d-flex justify-content-start align-items-center gap-8'>
@@ -805,7 +805,7 @@ function Index (){
                                 </div>
                                 <div className='mt-24 pb-20 d-flex flex-column row-gap-8 border-bottom border-1 border-secondary pointer'>
                                     <div className='d-flex justify-content-start align-items-center gap-8'>
-                                        <img src="/images/mobile/index/onlyIcon.png" alt="" />
+                                        <img src={`${import.meta.env.BASE_URL}images/mobile/index/onlyIcon.png`} alt="" />
                                         <p className='fw-500 fs-24 lh-15 fontFamily'>Youtube 職涯諮詢室</p>
                                     </div>
                                     <span class="material-symbols-outlined pointer">
@@ -814,7 +814,7 @@ function Index (){
                                 </div>
                                 <div className='mt-24 pb-20 d-flex flex-column row-gap-8 border-bottom border-1 border-secondary pointer'>
                                     <div className='d-flex justify-content-start align-items-center gap-8'>
-                                        <img src="/images/mobile/index/onlyIcon-1.png" alt="" />
+                                        <img src={`${import.meta.env.BASE_URL}images/mobile/index/onlyIcon-1.png`} alt="" />
                                         <p className='fw-500 fs-24 lh-15 fontFamily'>podcast 職涯諮詢室</p>
                                     </div>
                                     <span class="material-symbols-outlined pointer">
@@ -823,7 +823,7 @@ function Index (){
                                 </div>
                                 <div className='mt-24 pb-20 d-flex flex-column row-gap-8 border-bottom border-1 border-secondary pointer'>
                                     <div className='d-flex justify-content-start align-items-center gap-8'>
-                                        <img src="/images/mobile/index/onlyIcon-2.png" alt="" />
+                                        <img src={`${import.meta.env.BASE_URL}images/mobile/index/onlyIcon-2.png`} alt="" />
                                         <p className='fw-500 fs-24 lh-15 fontFamily'>Facebook 前端社群</p>
                                     </div>
                                     <span class="material-symbols-outlined pointer">
@@ -832,7 +832,7 @@ function Index (){
                                 </div>
                                 <div className='mt-24 pb-20 d-flex flex-column row-gap-8 border-bottom border-1 border-secondary pointer'>
                                     <div className='d-flex justify-content-start align-items-center gap-8'>
-                                        <img src="/images/mobile/index/icons8-linkedin 1.png" alt="" />
+                                        <img src={`${import.meta.env.BASE_URL}images/mobile/index/icons8-linkedin 1.png`} alt="" />
                                         <p className='fw-500 fs-24 lh-15 fontFamily'>linkedin 職涯交流</p>
                                     </div>
                                     <span class="material-symbols-outlined pointer">
@@ -841,7 +841,7 @@ function Index (){
                                 </div>
                                 <div className='mt-24 pb-20 d-flex flex-column row-gap-8 border-bottom border-1 border-secondary pointer'>
                                     <div className='d-flex justify-content-start align-items-center gap-8'>
-                                        <img src="/images/mobile/index/onlyIcon-3.png" alt="" />
+                                        <img src={`${import.meta.env.BASE_URL}images/mobile/index/onlyIcon-3.png`} alt="" />
                                         <p className='fw-500 fs-24 lh-15 fontFamily'>Instagram 日常分享</p>
                                     </div>
                                     <span class="material-symbols-outlined pointer">
@@ -868,35 +868,35 @@ function Index (){
                                     </span>
                                 </div>
                                 <div className='mt-17 pb-17 d-flex justify-content-start align-items-center gap-8 border-bottom border-1 border-secondary pointer'>
-                                    <img src="/images/mobile/index/onlyIcon.png" alt="" />
+                                    <img src={`${import.meta.env.BASE_URL}images/mobile/index/onlyIcon.png`} alt="" />
                                     <p className='fw-500 fs-24 lh-15 fontFamily'>Youtube 職涯諮詢室</p>
                                     <span class="material-symbols-outlined pointer  ms-auto">
                                         arrow_forward
                                     </span>
                                 </div>
                                 <div className='mt-17 pb-17 d-flex justify-content-start align-items-center gap-8 border-bottom border-1 border-secondary pointer'>
-                                    <img src="/images/mobile/index/onlyIcon-1.png" alt="" />
+                                    <img src={`${import.meta.env.BASE_URL}images/mobile/index/onlyIcon-1.png`} alt="" />
                                     <p className='fw-500 fs-24 lh-15 fontFamily'>podcast 職涯諮詢室</p>
                                     <span class="material-symbols-outlined pointer  ms-auto">
                                         arrow_forward
                                     </span>
                                 </div>
                                 <div className='mt-17 pb-17 d-flex justify-content-start align-items-center gap-8 border-bottom border-1 border-secondary pointer'>
-                                    <img src="/images/mobile/index/onlyIcon-2.png" alt="" />
+                                    <img src={`${import.meta.env.BASE_URL}images/mobile/index/onlyIcon-2.png`} alt="" />
                                     <p className='fw-500 fs-24 lh-15 fontFamily'>Facebook 前端社群</p>
                                     <span class="material-symbols-outlined pointer  ms-auto">
                                         arrow_forward
                                     </span>
                                 </div>
                                 <div className='mt-17 pb-17 d-flex justify-content-start align-items-center gap-8 border-bottom border-1 border-secondary pointer'>
-                                    <img src="/images/mobile/index/icons8-linkedin 1.png" alt="" />
+                                    <img src={`${import.meta.env.BASE_URL}images/mobile/index/icons8-linkedin 1.png`} alt="" />
                                     <p className='fw-500 fs-24 lh-15 fontFamily'>linkedin 職涯交流</p>
                                     <span class="material-symbols-outlined pointer  ms-auto">
                                         arrow_forward
                                     </span>
                                 </div>
                                 <div className='mt-17 pb-17 d-flex justify-content-start align-items-center gap-8 border-bottom border-1 border-secondary pointer'>
-                                    <img src="/images/mobile/index/onlyIcon-3.png" alt="" />
+                                    <img src={`${import.meta.env.BASE_URL}images/mobile/index/onlyIcon-3.png`} alt="" />
                                     <p className='fw-500 fs-24 lh-15 fontFamily'>Instagram 日常分享</p>
                                     <span class="material-symbols-outlined pointer  ms-auto">
                                         arrow_forward

@@ -79,7 +79,7 @@ function BlogDetail() {
                                 
                                 <section className="">
                                     <img
-                                        src="/images/mobile/blog-content/content1.png"
+                                        src={`${import.meta.env.BASE_URL}images/mobile/blog-content/content1.png`}
                                         className="bgd-mb-main2-card1-img rounded-0 d-block"
                                         alt=""
                                     />
@@ -130,7 +130,7 @@ function BlogDetail() {
                                 
                                 <section className="">
                                     <img
-                                        src="/images/mobile/blog-content/content2.png"
+                                        src={`${import.meta.env.BASE_URL}images/mobile/blog-content/content2.png`}
                                         className="bgd-mb-main2-card1-img rounded-0 d-block"
                                         alt=""
                                     />
@@ -177,7 +177,7 @@ function BlogDetail() {
                                 
                                 <section className="">
                                     <img
-                                        src="/images/mobile/blog-content/content3.png"
+                                        src={`${import.meta.env.BASE_URL}images/mobile/blog-content/content3.png`}
                                         className="bgd-mb-main2-card1-img rounded-0 d-block"
                                         alt=""
                                     />
@@ -218,7 +218,7 @@ function BlogDetail() {
                                 
                                 <section className="">
                                     <img
-                                        src="/images/mobile/blog-content/content4.png"
+                                        src={`${import.meta.env.BASE_URL}images/mobile/blog-content/content4.png`}
                                         className="bgd-mb-main2-card1-img rounded-0 d-block"
                                         alt=""
                                     />
