@@ -147,7 +147,7 @@ function Blog (){
                     <div className="row">
                         <div className="col">
                             <div className="blog-showcase-search-container">
-                                <input type="text" className="blog-showcase-search-input fw-500 fs-16 lh-15 fontFamily br-40" placeholder="請輸入關鍵字" />
+                                <input type="search" className="blog-showcase-search-input fw-500 fs-16 lh-15 fontFamily br-40" placeholder="請輸入關鍵字" />
                                 <span className="blog-showcase-search-icon material-symbols-outlined">search</span>
                             </div>
                         </div>
