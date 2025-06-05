@@ -193,13 +193,19 @@ function BlogDetail() {
                                 <h3 className="fw-700 fs-28 col-0027D5 lh-15 fontFamily mt-24">延伸閱讀</h3>
                                 <ul className="ps-24">
                                     <li>
-                                        <span className="fw-500 fs-16 col-000000 lh-15 fontFamily">前端面試不再慌：破解常見提問的三大策略</span>
+                                        <a href="#">
+                                            <span className="fw-500 fs-16 col-000000 lh-15 fontFamily">前端面試不再慌：破解常見提問的三大策略</span>
+                                        </a>
                                     </li>
                                     <li>
-                                        <span className="fw-500 fs-16 col-000000 lh-15 fontFamily">掌握前端測試：從單元測試到端對端測試的完整攻略</span>
+                                        <a href="#">
+                                            <span className="fw-500 fs-16 col-000000 lh-15 fontFamily">掌握前端測試：從單元測試到端對端測試的完整攻略</span>
+                                        </a>
                                     </li>
                                     <li>
-                                        <span className="fw-500 fs-16 col-000000 lh-15 fontFamily">SEO 與前端最佳實踐：讓搜尋引擎看見你的網站</span>
+                                        <a href="#">
+                                            <span className="fw-500 fs-16 col-000000 lh-15 fontFamily">SEO 與前端最佳實踐：讓搜尋引擎看見你的網站</span>
+                                        </a>
                                     </li>
                                 </ul>
 
