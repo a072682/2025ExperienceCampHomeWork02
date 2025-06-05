@@ -1,16 +1,12 @@
 import ReactPagination from '../components/common/ReactPagination';
-import { useNavigate } from "react-router-dom";
 import './_Blog.scss';
 import BlogDetail from './BlogDetail';
+import BlogIntro from '../components/common/BlogIntro';
+import BlogNews from '../components/common/BlogNews';
+
 
 
 function Blog (){
-
-    const navigate = useNavigate();
-
-    const handleGoToDetail = (id) => {
-        navigate(`/BlogPage/${id}`);
-    };
 
     const cards = [
         {
@@ -138,176 +134,74 @@ function Blog (){
 
     return(
         <>
-            <div className='bg-main1 w-100'>
-                <div className='bg-main1-mb d-flex flex-column d-block d-xl-none'>
-                    <div className='bg-main-mb-bg1'></div>
-                    <div className='bg-main-mb-bg2'>
-                        <div className="container">
-                            <div className="row">
-                                <div className="col">
-                                    <div className='bg-title-box mt-24 mb-40 d-flex flex-column gap-12'>
-                                        <h1 className='text-start col-0027D5 fw-900 fs-52 lh-15 fontFamily'>BLOG</h1>
-                                        <p className='text-start col-0027D5 fw-700 fs-28 lh-15 fontFamily'>前端工程師 & 職涯諮詢師</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div className='bg-main1-desktop d-none d-xl-block position-relative'>
-                    <div className='bg-main1-desktop-bg d-flex'>
-                        <div className='bg-main1-desktop-bg1'>
-                        </div>
-                        <div className='bg-main1-desktop-bg2'>
-                            <div className='bg-title-desktop-box pt-300'>
-                                <div className='bg-title-desktop-box2'>
-                                    <h1 className='col-0027D5 fs-120 fw-900 lh-15 fontFamily'>BLOG</h1>
-                                    <p className='col-0027D5 fs-28 fw-700 lh-15 fontFamily'>前端工程師 & 職涯諮詢師</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div> 
+            
+            <div className='BlogIntro'>
+                <BlogIntro />
             </div>
-            <div className='bg-main2 w-100'>
-                <div className='bg-main2-mb d-flex flex-column d-block d-xl-none'>
-                    <div className='bg-main2-mb-bg1'></div>
-                    <div className='bg-main2-mb-bg2'>
-                        <div className="container">
-                            <div className="row">
-                                <div className="col">
-                                    <div className='bg-main2-card-box py-48 d-flex flex-column'>
-                                        <div className="main2-card1 border-0 h-100">
-                                            <div className="main2-card1-body d-flex flex-column">
-                                                {/* 時間 */}
-                                                <time dateTime="2024-10-21" className="mb-4 fs-16 fw-500 col-000000 lh-15 fontFamily">2024/10/21</time>
-                                                {/* 標籤 */}
-                                                <div className="d-flex">
-                                                    <span className="me-2 fs-24 fw-500 col-0027D5 fontFamily">前端開發 x 職涯成長</span>
-                                                    <span className="ms-8 bg-0027D5 col-ffffff fs-16 fw-700 py-6 px-12 br-40">最新文章</span>
-                                                </div>
-
-                                                {/* 標題 */}
-                                                <h3 className="mb-8 main2-card1-title fs-28 fw-700 col-000000 lh-15 fontFamily">自學前端不用怕：從零開始的三大關鍵</h3>
-
-                                                {/* 內容 */}
-                                                <p className="mb-16 main2-card1-text flex-grow-1 fs-16 fw-500 col-000000 lh-15 fontFamily">
-                                                    嗨，我是 Alyse，一名前端工程師兼職涯諮詢師。一直以來，我都很喜歡在部落格分享學習與工作心得，也常有讀者問：「我想轉職/自學前端，該從哪裡開始？」 其實自學的過程既自由又具挑戰性。我整理了三大關鍵，幫助你在短期內建立紮實基礎，並快速累積實戰經驗。希望能替你的前端之路帶來一些啟發與動力！
-                                                </p>
-
-                                                {/* 按鈕 */}
-                                                <div className='d-flex justify-content-stard'>
-                                                    <button type="button" onClick={() => handleGoToDetail(123)} className="card-btn fs-16 fw-500 col-4B4B4B lh-15 fontFamily">
-                                                        閱讀內文
-                                                    </button>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div className='bg-main2-desktop d-none d-xl-block position-relative'>
-                    <div className='bg-main2-desktop-bg d-flex'>
-                        <div className='bg-main2-desktop-bg1'>
-                        </div>
-                        <div className='bg-main2-desktop-bg2'>     
-                            <div className='bg-main2-card-box h-100 px-24 d-flex flex-column justify-content-center align-items-start'>
-                                <div className="bg-main2-card1 border-0 ">
-                                    <div className="main2-card1-body d-flex flex-column">
-                                        {/* 時間 */}
-                                        <time dateTime="2024-10-21" className="mb-4 fs-16 fw-500 col-000000 lh-15 fontFamily">2024/10/21</time>
-                                        {/* 標籤 */}
-                                        <div className="d-flex">
-                                            <span className="me-2 fs-24 fw-500 col-0027D5 fontFamily">前端開發 x 職涯成長</span>
-                                            <span className="ms-8 bg-0027D5 col-ffffff fs-16 fw-700 py-6 px-12 br-40">最新文章</span>
-                                        </div>
-
-                                        {/* 標題 */}
-                                        <h3 className="mb-8 main2-card1-title fs-28 fw-700 col-000000 lh-15 fontFamily">自學前端不用怕：從零開始的三大關鍵</h3>
-
-                                        {/* 內容 */}
-                                        <p className="mb-16 main2-card1-text flex-grow-1 fs-16 fw-500 col-000000 lh-15 fontFamily">
-                                            嗨，我是 Alyse，一名前端工程師兼職涯諮詢師。一直以來，我都很喜歡在部落格分享學習與工作心得，也常有讀者問：「我想轉職/自學前端，該從哪裡開始？」 其實自學的過程既自由又具挑戰性。我整理了三大關鍵，幫助你在短期內建立紮實基礎，並快速累積實戰經驗。希望能替你的前端之路帶來一些啟發與動力！
-                                        </p>
-
-                                        {/* 按鈕 */}
-                                        <div className='d-flex justify-content-stard'>
-                                            <button type="button" onClick={() => handleGoToDetail(123)} className="card-btn fs-16 fw-500 col-4B4B4B lh-15 fontFamily">
-                                                閱讀內文
-                                            </button>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div> 
+            
+            <div className='BlogNews'>
+                <BlogNews />
             </div>
-            <div className='bg-main3 w-100 my-64 my-lg-80'>
-                <div className='bg-main3'>
-                    <div className="container my-4">
-                        <div className="row">
-                            <div className="col">
-                               <div className="bg-main3-search-container">
-                                    <input type="text" className="bg-main3-search-input fw-500 fs-16 lh-15 fontFamily br-40" placeholder="請輸入關鍵字" />
-                                    <span className="bg-main3-search-icon material-symbols-outlined">search</span>
-                                </div>
+            <div className='blog-showcase w-100 my-64 my-lg-80'>
+                <div className="container my-4">
+                    <div className="row">
+                        <div className="col">
+                            <div className="blog-showcase-search-container">
+                                <input type="text" className="blog-showcase-search-input fw-500 fs-16 lh-15 fontFamily br-40" placeholder="請輸入關鍵字" />
+                                <span className="blog-showcase-search-icon material-symbols-outlined">search</span>
                             </div>
                         </div>
-                        <div className="row">
-                        {cards.map(card => (
-                            <div key={card.id} className="col-12 col-md-6 col-xl-4 my-40">
-                            <div className="card border-0 h-100">
-                                <picture>
-                                {/* 小於 576px 時使用 mobile 圖片 */}
-                                <source media="(max-width: 767.98px)" srcSet={card.mobileImage} />
-                                {/* 預設使用桌面圖片 */}
-                                <img
-                                    src={card.image}
-                                    className="card-img rounded-0 d-block mx-auto"
-                                    alt={card.title}
-                                />
-                                </picture>
-                                <div className="card-body mt-16 p-0 d-flex flex-column">
-                                {/* 時間 */}
-                                <time dateTime="2025-05-25" className="mb-4 fs-6 fw-500 card-time-col fontFamily">{card.time}</time>
-                                {/* 標籤 */}
-                                <div className="d-flex">
-                                    {card.tags.map((tag, index) => (
-                                    <span key={index} className="me-2 fs-4 fw-500 card-tag-col fontFamily">#{tag}</span>
-                                    ))}
-                                    {
-                                    card.tagkey && (<span className="ms-8 card-tag-bg-col card-tag-col2 fs-6 fw-700 py-6 px-12 br-40">人氣文章</span>)
-                                    }
-                                </div>
+                    </div>
+                    <div className="row">
+                    {cards.map(card => (
+                        <div key={card.id} className="col-12 col-md-6 col-xl-4 my-40">
+                        <div className="card border-0 h-100">
+                            <picture>
+                            {/* 小於 576px 時使用 mobile 圖片 */}
+                            <source media="(max-width: 767.98px)" srcSet={card.mobileImage} />
+                            {/* 預設使用桌面圖片 */}
+                            <img
+                                src={card.image}
+                                className="card-img rounded-0 d-block mx-auto"
+                                alt={card.title}
+                            />
+                            </picture>
+                            <div className="card-body mt-16 p-0 d-flex flex-column">
+                            {/* 時間 */}
+                            <time dateTime="2025-05-25" className="mb-4 fs-6 fw-500 card-time-col fontFamily">{card.time}</time>
+                            {/* 標籤 */}
+                            <div className="d-flex">
+                                {card.tags.map((tag, index) => (
+                                <span key={index} className="me-2 fs-4 fw-500 card-tag-col fontFamily">#{tag}</span>
+                                ))}
+                                {
+                                card.tagkey && (<span className="ms-8 card-tag-bg-col card-tag-col2 fs-6 fw-700 py-6 px-12 br-40">人氣文章</span>)
+                                }
+                            </div>
 
-                                {/* 標題 */}
-                                <h3 className="mb-8 card-title fs-3 fw-700 card-title-col fontFamily">{card.title}</h3>
+                            {/* 標題 */}
+                            <h3 className="mb-8 card-title fs-3 fw-700 card-title-col fontFamily">{card.title}</h3>
 
-                                {/* 內容 */}
-                                <p className="mb-16 card-text flex-grow-1 fs-6 fw-500 card-text-col fontFamily">
-                                    {card.text}
-                                </p>
+                            {/* 內容 */}
+                            <p className="mb-16 card-text flex-grow-1 fs-6 fw-500 card-text-col fontFamily">
+                                {card.text}
+                            </p>
 
-                                {/* 按鈕 */}
-                                <div className='d-flex justify-content-stard'>
-                                    <button type="button" className="card-btn fs-6 fw-500 card-btn-col fontFamily">
-                                        閱讀內文
-                                    </button>
-                                </div>
-                                </div>
-
+                            {/* 按鈕 */}
+                            <div className='d-flex justify-content-stard'>
+                                <button type="button" className="card-btn fs-6 fw-500 card-btn-col fontFamily">
+                                    閱讀內文
+                                </button>
                             </div>
                             </div>
-                        ))}
+
                         </div>
-                        <div className="row">
-                            <div className="col">
-                                <ReactPagination />
-                            </div>
+                        </div>
+                    ))}
+                    </div>
+                    <div className="row">
+                        <div className="col">
+                            <ReactPagination />
                         </div>
                     </div>
                 </div>

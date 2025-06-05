@@ -33,7 +33,7 @@
 }
 
 .main-desktop-bg{
-    width: 100vw;
+    width: 100%;
     height: calc(100vh - 90px);
     background-image: url('/images/desktop/index/Hero Section2.png');
     background-repeat: no-repeat;
@@ -43,7 +43,7 @@
 }
 
 .main-desktop-bg1{
-    width: 50vw;
+    width: 50%;
     height: calc(100vh - 90px - 202px);
     background-image: url('/images/desktop/index/Hero Section.png');
     background-repeat: no-repeat;
@@ -53,7 +53,7 @@
 }
 
 .main-desktop-bg2{
-    width: 50vw;
+    width: 50%;
 }
 
 .title-desktop-box{
@@ -152,7 +152,7 @@
         left: -56px;
     }
     @media (max-width: 1270px) {
-        left: -30px;
+        left: -20px;
     }
 }
 
@@ -168,7 +168,7 @@
         right: -56px;
     }
     @media (max-width: 1270px) {
-        right: -30px;
+        right: -20px;
     }
 }
 
@@ -258,14 +258,6 @@
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    // @media (min-width: 768px) {
-    //     background-size: 50%;
-    //     background-position: center;
-    // }
-    // @media (min-width: 992px) { 
-    //     background-size: 50%;
-    //     background-position: center -40px;
-    // }
 }
 
 .main5-md-input{

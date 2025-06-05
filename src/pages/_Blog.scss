@@ -1,126 +1,24 @@
-/*bg-mb-main1*/
-.bg-main-mb-bg1{
-    width: 100%;
-    height: calc(100vh - 90px - 180px);
-    background-image: url('/images/mobile/index/Hero Section.png');
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size:cover;
-    background-attachment: scroll;
-}
-
-.bg-main-mb-bg2{
-    width: 100%;
-    height: 180px;
-    background-image: url('/images/mobile/index/Hero Section2.png');
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size:cover;
-    background-attachment: scroll;
-}
-
-/*bg-main1-desktop*/
-.bg-main1-desktop-bg{
-    width: 100%;
-    height: calc(100vh - 90px);
-    background-image: url('/images/desktop/index/Hero Section2.png');
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size:cover;
-    background-attachment: scroll;
-}
-
-.bg-main1-desktop-bg1{
-    width: 50%;
-    height: calc(100vh - 90px);
-    background-image: url('/images/desktop/index/Hero Section.png');
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size:cover;
-    background-attachment: scroll;
-}
-
-.bg-main1-desktop-bg2{
-    width: 50%;
-}
-
-.bg-title-desktop-box{
-    padding-left: 80px;
-    display: flex;
-    flex-direction:column;
-    justify-content: center;
-    align-items: start;
-    gap: 12px;
-    @media (max-width: 1361px) {
-        align-items: center;
-    }
-}
 
 
-/*bg-main2-mb*/
+/*blog-showcase*/
 
-.bg-main2-mb-bg1{
-    width: 100%;
-    height: calc(100vh - 364px);
-    background-image: url('/images/mobile/blog/About Section.png');
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size:cover;
-    background-attachment: scroll;
-}
-
-.main2-card1-text{
-    /* width: 416px;
-    height: 48px; */
-
-    display: -webkit-box; /*-webkit-box + -webkit-box-orient 搭配 line-clamp 使用，讓文字可被裁切*/
-    -webkit-box-orient: vertical;
-    -webkit-line-clamp: 2; /* 限制文字最多顯示幾行（這裡設為 2） */
-    
-
-    overflow: hidden; /*隱藏超出範圍的文字*/
-    text-overflow: ellipsis; /*加上「...」效果*/
-    /*line-height: 1.5;*/ /* 48px 高度 ÷ 2 行 = 24px 單行高度 */
-}
-
-/*bg-main2-desktop*/
-.bg-main2-desktop-bg1{
-    width: 50%;
-    height: 640px;
-    background-image: url('/images/desktop/blog/About Section.png');
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size:cover;
-    background-attachment: scroll;
-}
-
-.bg-main2-desktop-bg2{
-    width: 50%;
-}
-
-.bg-main2-card1{
-    max-width: 636px;
-}
-
-/*bg-main3-mb*/
-
-.bg-main3-search-container{
+.blog-showcase-search-container{
   position: relative;
   width: 100%;
 }
 
-.bg-main3-search-input {
+.blog-showcase-search-input {
   width: 351px;
   padding: 16px 48px 16px 50px; /* 留出右邊空間給 icon */
   border: 1px solid #4B4B4B;
 }
 
 /* 設定 placeholder 文字顏色為 #4B4B4B */
-.bg-main3-search-input::placeholder {
+.blog-showcase-search-input::placeholder {
   color: #4B4B4B;
 }
 
-.bg-main3-search-icon {
+.blog-showcase-search-icon {
   position: absolute;
   left: 16px;
   top: 50%;

@@ -1,0 +1,32 @@
+.blog-detail-intro-bg{
+    width: 100%;
+    position:static;
+    @media (min-width: 992px) {
+        position:relative;
+        height: auto;
+    }
+}
+
+
+.blog-detail-intro-bg1{
+  width:100%;
+  height: calc(100vh - 45vh);
+  background-image: url('/images/mobile/blog/About Section.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+    @media (min-width: 992px) {
+        width:50%;
+        background-image: url('/images/desktop/blog/About Section.png');
+        height: 640px;
+    }
+}
+
+.blog-detail-intro-bg2{
+  width:100%;
+  height: calc(100vh - 55vh);
+    @media (min-width: 992px) {
+        width:50%;
+        height: 640px;
+    }
+}
