@@ -86,7 +86,7 @@ function IndexMainCareer(){
                                 career.map((caseItem, idx) => ( 
                                         <div className="main-career-card d-lg-flex flex-lg-column h-lg-100 p-24" key={idx}>
                                             <div className="main-career-card-img-box br-40 mb-16">
-                                                <img className="img-set" src={`/images/desktop/index/${caseItem.img}`} alt=""/>
+                                                <img className="img-set" src={`${import.meta.env.BASE_URL}images/desktop/index/${caseItem.img}`} alt=""/>
                                             </div>
                                             <h3 className="mt-3 fw-700 fs-24 lh-15 fontFamily col-000000">
                                                 {caseItem.title}
